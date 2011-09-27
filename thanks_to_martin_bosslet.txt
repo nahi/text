@@ -1,0 +1,5 @@
+From the standpoint of OSSL (Ruby’s OpenSSL binding), 1.9.3 is a small release; bug fix, performance improvements, official OpenSSL 1.0.0 support and a few API enhancements. We had new digital time-stamp and ASN.1 Template(DSL) implementation presented by Martin Boßlet but we could not merge those bleeding-edge new features into 1.9.3 since there's no Ruby developer who can review it. It was quite obvious for us to ask him to be a maintainer of OSSL, as an expert of crypto and network security area.
+
+Since then, he helped us to clean up lots of OSSL issues piled on our issue tracker by fixing SEGV bugs, consulting with users, and tailoring build system to fit OpenSSL versions/variants. Though he discreetly didn’t merged his new feature implementations into 1.9.3, it looks clear you can utilize those at the next release.
+
+OSSL is the best language binding implementation of OpenSSL in the way of offering most of OpenSSL features through easy API with a help of Ruby. We didn’t see its new features for a while but Martin Boßlet would help us. Though network security is a moving target, now I’m optimistic about prospects of those Ruby features.
